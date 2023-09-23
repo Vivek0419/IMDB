@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+/* main div */
+
+.movie{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    
+}
+#movieresult{
+    width: 100%;
+    min-height: 95vh;
+    /* height: auto; */
+    /* height: 100%; */
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .moviediv{
+    width: 25%;
+    height: 300px;
+    margin-top: 10px;
+    background-color: black;
+    border: 2px solid red;
+} */
+.imgstyle{
+    width: 100%;
+    height: 200px;
+}
+.namestyle{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.btn{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+   margin-left: 15px;
+
+}
+.fav{
+    width:100%;
+    /* height: auto; */
+    
+    
+
+}
+
+.movie-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.movie-info p {
+    margin-bottom: 5px;
+    color: #fff;
+}
+#favoriteMovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
